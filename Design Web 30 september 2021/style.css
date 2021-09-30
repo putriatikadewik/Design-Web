@@ -1,0 +1,116 @@
+.header {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #FF0000;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover{
+	background-color: red;
+	color: yellow;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.kolom {
+	float: left;
+	width: 31.33%;
+	padding: 10px;
+	text-align: justify;
+}
+
+.footer {
+	background-color: red;
+	padding: 18px;
+	text-align: center;
+}
+
+.footer p:hover {
+	background-color: white;
+	color: red;
+}
+
+.kolom2 {
+	float: left;
+	width: 100%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.kolom3 {
+	float: left;
+	width: 64.67%;
+	padding: 15px;
+	text-align: justify;
+}
+
+img {
+	width: 1200px;
+	height: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.banner {
+	background-color: red;
+	padding: 10px;
+	margin-top:200px;
+}
+
+.fixed-nav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.teksberjalan {
+	background-color: red;
+	position: fixed;
+	color: #FFFFFF;
+	top: 0;
+	width: 100%;
+}
+
+.foto1{
+	width: 100px;
+	height: 50px;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-color: green;
+	border-width: 20px;
+	border-style: solid;
+}
